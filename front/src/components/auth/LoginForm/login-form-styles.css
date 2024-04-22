@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada:wght@400;700&display=swap');
+
+.Galada-font {
+  font-family: 'Galada', sans-serif;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form-container {
+  background-color: #61c1c6;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  background-color: #ffffff;
+  padding: 10%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.input-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px; 
+}
+
+.confirmation-message{
+
+        background-color: #f39fa0;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+      
+}
+
+.register-btn {
+  background-color: #824b33;
+  color: #ffffff;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 800;
+  font-size: 24px; 
+  padding: 16px 20px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #f82568;
+}
+
+.file-input-style {
+    background-color: #ffffff;
+    padding: 10%;
+    border-radius: 20px;
+  }
+  
+  .file-input-style {
+    margin-bottom: 50px;
+    
+  }
+
+@media (max-width: 650px) {
+  .file-input-style {
+    font-size: 12px; 
+  }
+}
+
+@media (max-width: 500px) {
+  .register-btn {
+    font-size: 18px; 
+  }
+}
+
+@media (max-width: 440px) {
+ 
+    .file-input-style {
+      font-size: 9px;
+    }
+  }
+  
+  

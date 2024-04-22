@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada:wght@400;700&display=swap');
+
+.galada-font {
+  font-family: 'Galada', sans-serif;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postres-form-container {
+  background-color: #ffd1dc;
+  padding: 80px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  background-color: #ffffff;
+  padding: 10%;
+  border-radius: 20px;
+}
+
+.file-input {
+  margin-bottom: 50px;
+  
+}
+
+.input-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.crear-btn {
+  background-color:#824b33;
+  color: #ffd1dc;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.crear-btn:hover {
+  background-color: #f82568;
+}
+
+
+@media (max-width: 650px) {
+ 
+  .file-input {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 500px) {
+ 
+
+  .crear-btn {
+    font-size: 18px;
+  }
+}
+

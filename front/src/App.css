@@ -1,0 +1,61 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cargando{
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav {
+  width: 100%;
+  border-bottom: thin solid;
+  
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.cardList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1REM;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border: thin solid;
+  border-radius: 10px;
+  width: 10rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+

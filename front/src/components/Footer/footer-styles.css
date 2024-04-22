@@ -1,0 +1,16 @@
+
+.footer{
+  padding: 20px 20px;
+  background-color: #ffe6d0;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.twitter-icon, .facebook-icon, .instagram-icon {
+  color: #824b33; 
+}
+

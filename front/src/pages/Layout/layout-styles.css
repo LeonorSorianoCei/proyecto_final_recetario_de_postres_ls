@@ -1,0 +1,6 @@
+.content{
+background-image: url('/background_cupcakes.jpg');
+background-size: cover; /* Para cubrir todo el área */
+background-position: center; /* Centrar la imagen */
+background-repeat: no-repeat; /* Evitar la repetición */
+}
