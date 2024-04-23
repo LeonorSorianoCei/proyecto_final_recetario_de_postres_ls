@@ -31,7 +31,5 @@ Para utilizar este proyecto, sigue los siguientes pasos:
 
 Si deseas probar la aplicación, accede a [este enlace](https://front-postres-proyecto-final-ls.vercel.app/).
 
-La API esta publicada en [este enlace](https://postres-proyecto-final.vercel.app/).
-
 
 
