@@ -188,7 +188,7 @@ function UsersList() {
                 {activeUsers.map(({ _id, nombre, imagen, descripcion }) => (
                   <div className="card-user" key={_id}>
                     <h3>{nombre}</h3>
-                    <img src={`${VITE_BACKEND_URL}/files/${imagen}`} alt={nombre} />
+                    <img src={imagen ? `${VITE_BACKEND_URL}/files/${imagen}`: `${VITE_BACKEND_URL}/files/logo_mundo_de_azucar.png`} alt={nombre} />
                     <section className='texto'>
                       <p>{descripcion}</p>
                     </section>

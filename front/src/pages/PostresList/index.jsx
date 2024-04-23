@@ -199,7 +199,7 @@ function PostresList() {
                   {filteredPostres.map(({ _id, nombre, imagen, descripcion, ingredientes, dificultad, tiempo, instrucciones }) => (
                     <div className="card-item" key={_id} onClick={() => handlePostreClick({ _id, nombre, imagen, descripcion, ingredientes, dificultad, tiempo, instrucciones })}>
                       <h3>{nombre}</h3>
-                      <img src={`${VITE_BACKEND_URL}/files/${imagen}`} alt={nombre} />
+                      <img src={imagen ? `${VITE_BACKEND_URL}/files/${imagen}`: `${VITE_BACKEND_URL}/files/sin_imagen_de_postre.jpg`} alt={nombre} />
                       <section className='texto'>
                       <p>Dificultad: {dificultad}</p>
                         <p>{descripcion}</p>

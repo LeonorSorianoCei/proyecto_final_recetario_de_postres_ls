@@ -38,7 +38,7 @@ function Home() {
               }
   
               { isLogged  &&
-                <img className='imagen-usuario' src={`${VITE_BACKEND_URL}/files/${datosUsuario.imagen}`} alt={datosUsuario.nombre} />
+                <img className='imagen-usuario' src={datosUsuario.imagen ?`${VITE_BACKEND_URL}/files/${datosUsuario.imagen}`: `${VITE_BACKEND_URL}/files/logo_mundo_de_azucar.png`} alt={datosUsuario.nombre} />
               }
             </div>
           </section>

@@ -35,7 +35,7 @@ const PostreLightbox = ({ isOpen, onClose, postre, children }) => {
               X
             </button>
             <h2>{nombre}</h2>
-            <img src={`${VITE_BACKEND_URL}/files/${imagen}`} alt={nombre} className="lightbox-image" />
+            <img src={imagen ? `${VITE_BACKEND_URL}/files/${imagen}`: `${VITE_BACKEND_URL}/files/sin_imagen_de_postre.jpg`} alt={nombre} className="lightbox-image" />
             <div>
               <PostreAccordion {...postre} >
                 {children}
